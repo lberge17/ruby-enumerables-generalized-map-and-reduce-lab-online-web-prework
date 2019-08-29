@@ -22,5 +22,12 @@ def reduce(source_array, starting_value=0)
     i +=1
   end
   p true
-  
+  until i >= source_array.length do
+    if source_array[i]
+      p true
+    else
+    i +=1 
+  end
+  end
+  p false
 end
