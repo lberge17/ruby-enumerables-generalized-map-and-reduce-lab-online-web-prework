@@ -19,6 +19,7 @@ def reduce(source_array, starting_value=nil)
     i = 1
   end
   
+  while i < source_array.length do
     
     
   total = starting_value
