@@ -22,4 +22,5 @@ def reduce(source_array, starting_value=0)
     i +=1
   end
   p true
+  
 end
