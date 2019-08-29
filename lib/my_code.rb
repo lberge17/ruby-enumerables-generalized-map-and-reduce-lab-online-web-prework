@@ -23,12 +23,5 @@ def reduce(source_array, starting_value=nil)
     total = yield(total, source_array[i])
     i += 1
   end
-    
-    
-  total = starting_value
-  until i >= source_array.length do
-    yield(source_array[i])
-    i +=1
-  end
   total
 end
