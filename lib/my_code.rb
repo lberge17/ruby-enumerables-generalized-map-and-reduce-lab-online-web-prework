@@ -2,7 +2,7 @@
 def map(source_array)
   i = 0
   newArray = []
-  until i >= source_array.length do
+  while i < source_array.length do
     newArray.push(source_array[i])
     i +=1
   end
