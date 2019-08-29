@@ -16,10 +16,5 @@ def reduce(source_array, starting_value=0)
     total += source_array[i]
     i +=1
   end
-  p total
-  until i >= source_array.length do
-    return false unless source_array[i]
-    i +=1
-  end
-  p true
+  total
 end
