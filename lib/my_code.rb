@@ -13,7 +13,7 @@ def reduce(source_array, starting_value=nil)
   i = 0
   total = starting_value
   until i >= source_array.length do
-    total += source_array[i]
+    yield(source_array[i])
     i +=1
   end
   total
