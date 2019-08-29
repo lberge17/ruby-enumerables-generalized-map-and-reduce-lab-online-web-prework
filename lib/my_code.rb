@@ -1,10 +1,9 @@
 # Your Code Here
 def map(source_array)
   i = 0
-  newArray = []
-  while i < source_array.length do
-    newArray.push(source_array[i])
-    i +=1
+  newArray  = []
+  while i < source_array.length 
+  
   end
   yield
   newArray
