@@ -11,8 +11,8 @@ end
 
 def reduce(source_array, starting_value=nil)
   i = 0
-  if sv 
-    num0=sv
+  if starting_value 
+    num0=starting_value
   total = starting_value
   until i >= source_array.length do
     yield(source_array[i])
